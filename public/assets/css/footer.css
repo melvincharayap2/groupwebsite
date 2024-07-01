@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: "Dancing Script", cursive;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    background: linear-gradient(to right, black, white);
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-grid {
+    text-align: center;
+}
+
+.footer-grid h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-text i {
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+
+.icon-text span {
+    font-size: 0.9rem;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 5px;
+    transition: transform 0.3s ease-out;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+.footer-grid p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    background: linear-gradient(to right, white, black);
+    height: auto;
+    width: auto;
+}
+footer p {
+    font: 50px;
+    font-family: cursive;
+}
+footer .footer-grid1 img {
+    position: static;
+    bottom: 80;
+    width: 50%;
+}
+.footer-grid2 {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.footer-grid2,
+.contact h2 {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 5px;
+    transition: 0.3s;
+}
+.button span {
+    overflow: hidden;
+    transition: 0.3s;
+    width: 0;
+}
+
+.button i {
+    position: absolute;
+    left: 1;
+    font-size: 30px;
+    color: white;
+}
+
+.button:hover {
+    width: 160px;
+    border-radius: 5px;
+}
+.button:hover span {
+    width: 120px;
+    padding-left: 20px;
+}
+
+#facebook {
+    color: blue;
+}
+#instagram {
+    color: red;
+}
+#tiktok {
+    color: blueviolet;
+}
+
+.footer-grid3 p {
+    font-size: 30px;
+}
+.footer-grid2 i {
+    position: relative;
+    right: 10;
+}
+.footer-grid2 p {
+    font-size: 30px;
+}

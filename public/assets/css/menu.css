@@ -1,0 +1,62 @@
+body {
+    background-color: #222831;
+}
+
+.menu-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.menu {
+    font-size: 50px;
+    color: green;
+    font-family: "Dancing Script", cursive;
+}
+
+.menu-button button {
+    padding: 1%;
+    position: relative;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+button:hover {
+    transform: scale(1.2);
+    border: 1px solid white;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+}
+/* burger */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+.footer1 span {
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+    font-family: none;
+    text-shadow: 2px 2px 8px black; /* Light blue text shadow */
+}
+.footer1 {
+    background-color: white;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
